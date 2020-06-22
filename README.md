@@ -65,6 +65,14 @@ For example, you could create a ```blog.html``` page with the following code.
 ```
 This will create an endless scroll of your latest blog posts.
 
+The available pieces of data for each post are:
+* title
+* feed_content
+* medium_link
+* pubDate
+* thumbnail
+* description
+
 You can test if this works by running ```jekyll serve``` and monitoring the output on your terminal. You should notice a list of your latest posts, along with their titles, like this.
 
 ```
